@@ -1,3 +1,5 @@
+// based on https://github.com/shiffman/The-Nature-of-Code-Examples/blob/master/introduction/NOC_I_1_RandomWalkTraditional/Walker.pde (LGPL)
+
 class Walker {
   int x, y;
 
@@ -17,8 +19,8 @@ class Walker {
     } else {
       y--;
     }
-    x = constrain(x,0,width-1);
-    y = constrain(y,0,height-1);
+    x = constrain(x, 0, width - 1);
+    y = constrain(y, 0, height - 1);
   }
 
   void render() {
