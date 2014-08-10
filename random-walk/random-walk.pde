@@ -22,7 +22,7 @@ class Walker {
   }
 
   void render() {
-    stroke(255, 255, 255);
+    stroke(random(255), random(255), random(255));
     point(x, y);
   }
 }
